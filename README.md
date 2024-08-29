@@ -13,7 +13,7 @@ The project files are organized as follows:
 ├── /css
 │   ├── all.min.css       # Font Awesome icons file
 │   ├── normalize.css     # Normalize CSS for consistent browser styles
-│   ├── main.css          # Main custom styles for the blog
+│   ├── main.css          # Main custom styles for the blog 
 │
 ├── /js
 │   └── script.js         # Custom JavaScript file (optional for future development)
@@ -37,7 +37,7 @@ To run this project, follow these steps:
    - Clone this repository or download the project as a ZIP file and extract the files.
 
    ```
-   git clone https://github.com/yourusername/my-advanced-blog.git
+   git clone https://github.com/mohamed-r-1/my-advanced-blog.git 
    ```
 
 2. **Open in Browser:**
@@ -46,10 +46,3 @@ To run this project, follow these steps:
 3. **Customization:**
    - You can customize the blog by adding more content or modifying the styles.
    - Edit the HTML and CSS files to fit your needs. You can update articles, navigation links, or add more sections.
-
-## Features
-
-- **Responsive Design:** The blog layout adapts to different screen sizes using Bootstrap.
-- **Smooth Scrolling:** Provides smooth page scrolling for a better user experience.
-- **Back to Top Button:** Appears when the user scrolls down, allowing quick navigation back to the top.
-- **Contact Form:** A simple form where users can submit their contact information.
