@@ -1,0 +1,135 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+:root {
+  /* Define global CSS variables */
+  --main-color: white;
+  --main-transition: 0.5s; 
+  --first-background: #007bff; 
+  --second-background: #0161c9; 
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-family: "Cairo", sans-serif; 
+}
+
+a {
+  text-decoration: none; 
+}
+
+ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+/* End Global Rules */
+
+/* Header Styles */
+.header {
+  background-color: var(--first-background); 
+  color: var(--main-color); 
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+/* Navbar Link Styles */
+.nav-item a {
+  margin: 30px; 
+  color: var(--main-color); 
+  font-weight: bold; 
+}
+
+/* Post Styles */
+.post {
+  border: 1px solid #ddd; 
+  padding: 20px; 
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease;
+}
+
+.post:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: #f8f9fa; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #343a40; 
+  color: var(--main-color); 
+  padding: 20px; 
+  text-align: center; 
+}
+
+.footer .container {
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+/* Contact Form Styles */
+.contact-form input,
+.contact-form textarea {
+  width: 100%; 
+  margin-bottom: 10px; 
+  padding: 10px; 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact-form h3 {
+  color: var(--main-color); 
+  font-size: 1.5rem; 
+}
+
+.contact-form button {
+  background-color: var(--first-background); 
+  border: none; 
+  color: var(--main-color);
+  margin-bottom: 20px; 
+  width: 30%;
+  transition: var(--main-transition); 
+}
+
+.contact-form button:hover {
+  background-color: var(--second-background); 
+}
+
+/* Back to Top Button Styles */
+.back-to-top {
+  position: fixed; 
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--first-background); 
+  color: var(--main-color); 
+  padding: 10px; 
+  border-radius: 50%; 
+  display: none; 
+  text-decoration: none; 
+  transition: var(--main-transition); 
+}
+
+.back-to-top:hover {
+  background-color: var(--second-background); 
+  color: var(--main-color); 
+}
